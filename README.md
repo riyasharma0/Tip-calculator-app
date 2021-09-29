@@ -39,7 +39,7 @@ Users should be able to:
 
 ### Useful resources
 
-- [Bootstrap 5.1.1](https://getbootstrap.com/) - This helped me in styling. I really liked this and will use it going forward.
+- [Bootstrap 5.1.1](https://getbootstrap.com/) - This helped me in styling and I love using bootstrap.
 - [w3 Schools](https://www.w3schools.com/) - There articles are amazing and helped me understanding the Javascript. I'd recommend it to anyone still learning this concept.
 
 ## Author
