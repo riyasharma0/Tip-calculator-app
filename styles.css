@@ -1,0 +1,190 @@
+body {
+    font-family: "Space Mono", monospace;
+    background-color: hsl(185, 41%, 84%);
+}
+
+/* Headings */
+
+.heading{
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.column1-heading{
+    
+   
+    color: hsl(186, 14%, 43%);
+}
+.column2-heading{
+   
+    color: white;
+   
+}
+p{
+    color: hsl(184, 14%, 56%);
+}
+.row {
+    background-color: hsl(0, 0%, 100%);
+    padding: 23px;
+    height: 450px;
+    margin: 80px 320px;
+    overflow: hidden;
+    border-radius: 15px;
+}
+.col-lg-6 {
+   
+    border-radius: 15px;
+}
+.column-1{
+    padding-right: 40px;
+}
+.column-2 {
+    background-color: hsl(183, 100%, 15%);
+    padding: 30px; 
+}
+.Logo{
+    display: block;
+    margin: 60px auto;
+}
+.btn-txt{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: white;
+    background-color: hsl(183, 100%, 15%);
+    width: 87px;
+    height: 46px;
+    margin: 5px 5px 5px 9px;
+    padding: 5px;
+    border: 0;
+    border-radius: 3px;
+    transition: background-color .3s ease,color .3s ease;
+}
+.btn-txt:focus{
+    background-color: hsl(172, 67%, 45%);
+    color: hsl(183, 100%, 15%);
+}
+
+/* Input Field */
+
+input::placeholder{
+    font-weight: normal;
+    color: hsl(184, 14%, 56%);
+}
+.form-control{
+    background-color: hsl(189, 41%, 97%);
+    color: hsl(183, 100%, 15%);
+    text-align: right;
+    font-size: 24px;
+    font-weight: 600;
+    border: 0;
+    border-radius: 5px;
+    
+    
+}
+.form-control:focus{
+    background-color: hsl(189, 41%, 97%);
+    color: hsl(183, 100%, 15%);
+    box-shadow: 0 0 0 0.2rem hsl(172, 67%, 45%);
+}
+
+/* Icon */
+
+.icon{
+    position: absolute;
+    left: 15px;
+    top: 45px;
+    bottom: 30px;
+}
+.wrapper{
+    position: relative;
+}
+
+.calc-amount{
+    text-align: end;
+    color:  hsl(172, 67%, 45%);
+    font-weight: 600;
+}
+.calculate{
+    width: -webkit-fill-available;
+}
+
+/* Reset Button */
+
+.reset-button{
+    color: hsl(183, 100%, 15%);
+    background-color: #06656a;
+    margin-top: 85px;
+    width: -webkit-fill-available;
+    font-weight: 600;                       
+
+}
+.reset-button:hover{
+    color: hsl(183, 100%, 15%);
+    background-color:  hsl(172, 67%, 45%);
+}
+
+/* Custom Button */
+
+ #customInput{
+    width: 87px;
+    height: 46px;
+    margin: 5px 5px 5px 9px;
+    padding: 5px;
+    font-size: 1.3rem;
+    display: inline-block;
+    font-weight: 600;
+   
+}
+#customInput::placeholder{
+    text-align: center;
+}
+
+/* Footer */
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+/* Mobile View */
+
+@media (max-width: 500px){
+    .row{
+         margin: 0;
+         padding: 10px;
+         height: -webkit-fill-available;
+    }
+    .Logo{
+        margin:  30px auto;
+    }
+    .column-1{
+        height: -webkit-fill-available;
+    }
+    .column-2{
+        margin-top: 16px;
+    }
+    .btn-txt{
+        display: inline-block;
+        width: 79px;
+        font-size: 1.3rem;
+    }
+    #customInput{
+        display: inline-block;
+        width: 79px;
+        font-size: 1rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
