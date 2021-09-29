@@ -25,8 +25,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here]()
-- Live Site URL: [Add live site URL here]()
+- Solution URL: [https://github.com/riyasharma0/Tip-calculator-app]()
+- Live Site URL: [https://riyasharma0.github.io/Tip-calculator-app/]()
 
 ### Built with
 
