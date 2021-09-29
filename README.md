@@ -21,7 +21,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](design\desktop-design-completed.jpg "Tip Calculator")
+![](design/desktop-design-completed.jpg)
 
 ### Links
 
